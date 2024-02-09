@@ -174,4 +174,4 @@ if the current value of the boolean expression is true (true means correct), the
 But if the boolean expression is false (incorrect) then the code should not be ran again, or it simply jump to the next statement that is after the while loop.
 
 
-PART B WOULD BE EXPLANATING PROBLEMS OF DESCRIBING SYNTAX
+PART B WOULD BE EXPLAINING PROBLEMS OF DESCRIBING SYNTAX
