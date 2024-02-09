@@ -1,0 +1,69 @@
+LETS TALK ABOUT THE QUEUEING MODELS
+First of all the queuing theory
+generally the theory is just when waiting lines are mathematically studied
+
+the whole idea of the model is the predict the queuing waiting line and the length of the queues
+
+NOW  LETS LIST THE TYPES OF MODES OF NODES
+
+Single Queue Node: This model connects a node with 2 or more servers
+Here in the single queue node which has 3 servers, lets take an instance that the server a is free and ready to accept a job, while server b is already occupied, which means it would take some time for the server to be done with the job, but meanwhile, server c just completed a job, hence it is serving out the result and making itself available for a new job to commence, which hence makes it the ideal candidate or server to take in a new job.
+
+When explaining the Single Queue Node, always take the idea of a cashier and customer reference.
+
+Note: when a customer leaves immediately it notices that the cashier or server is busy is called or referred to as a No-buffer, while the process where the customer has a waiting area is called as referred to as a queue with a buffer... the amount of numbers in the idea of waiting space and the queue is identified as n, respectively.
+
+Now the behavour of this queuning node is called a birth-death process. The idea behind it is the arrival and departure of jobs from the queue, also including the amount of jobs that has been current in the system.
+
+COMMON QUEUING MODELS:
+M/M/1 - This type of queuing model is explained to be the most basic of all models by having the Poisson Arrival, the Exponential Service time and Only one server.
+
+M/M/c - This is similar to the M/M/c, where the only difference is having multiple server
+G/M/1 - This type of model Generalizes the Arrival Time distribution
+M/G/1 - This type of model is known to Generalize the Service Time distribution
+
+
+THE KENDALL'S NOTION
+The idea of the Kendall's notion is whats generally used to explain the Single queue node with the A/S/c form, where  A denotes the distribution of duration of each job or arrival in the queue, the S denotes the dispering or distribution of server time , and the c refers to the number of servers present in the node.
+So basically, the Kendall Notation is more of a shorthand way to describe the types of queuing models
+
+
+SIMPLE TWO-EQUATION QUEUE
+This is understood to being the model  or queuing structure
+
+QUEUING MODEL KEY COMPONENTS
+Arrival Process: This explains how a customer or entity arrives to a system (Randomly, Periodically, etc)
+Queuing Discipline: This one defines the order in which customers or entities are being served (FIFO, LIFO, priority-based, First In-Random out, etc)
+
+Service Mechanism: This defines the type of service means to be rendered.
+Queue Capacity: This defines the maximum amount of customers or entities allowed to be on a queue whether its finite or infinite.
+Performance Measures: This should be understood as metric of interest which would boost over all performance such as waiting time, queue length, server utilization
+
+
+APPLICATION OF QUEUING MODELS
+Designing efficient service systems: 
+Capacity Planning:
+Performance Evaluation:
+Risk Assessement:
+
+
+Explaining Queuing Discipline:
+First In First Out (FIFO): This discipline follows the pattern which suggests that the First Client or customer to walk in would be the first who would be attended
+ 
+Last In First Out(LIFO): This discipline follows the patern which suggest that the Last customer to come in would be the First to be attended to.
+
+Priority Queues:  This discipline suggests that customers are assigned priority, and the customer with the highest level of priority gets served or attended first.
+
+Shortest Processing Time(SPT): This discipline guarantees the customer with the shortest time to have their request processed would be the customer to be attended to first, now this is regardless of the time of arrival.
+
+Round Robin: Taking the word round for its meaning, this discipline suggests that customers are attended to in a circular manner/fashion, where they are assigned an individual amount of service time, and then sent to the back of the queue.
+
+Queue Capacity:
+Finite Queue: This is a type of queue capacity that has limited amount of availiable spaces in the queue.. This means when the capacity has been filled up, the customers are rejected.
+
+Infinite Queue: In this type of queue capacity suggests that there is no limit to the available spaces. Which means the capacity can accomodate any amount of customers.
+
+Open queues: This type of queue capacity defines a system where the customers are free to enter or leave the queue whenever they wish..
+Closed Queues: This type of queue capacity suggests that customers cant just leave the system when they wish because the number of customers in the system is fixed.
+
+
