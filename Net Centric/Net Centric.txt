@@ -1,0 +1,152 @@
+THINGS THAT MAKE NET CENTRIC COMPUTING UNIQUE... THE STUDY
+
+Computing is the process of using computer technology to complete or put together a given task.
+It is worthy to note that computing essentially entails the processing information, and that also means computing can encompass design and development of hardware and software.
+
+MUTIPROCESSOR SYSTEM
+So basically, a multiprocessor is a type of processor that posses more than 2 processors in the systems
+
+Now for the loosely coupled processors, they are processing data independently, and it is done asynchronously, which means that it is called on only when necessary.
+occassionally, they tend to have their own resources and memory.
+
+Meanwhile, the tighly coupled systems, based on the diagram i am looking at, it has a shared memory, with several CPU which has interconnected hardware. This is also known as Parallel processing system, also known as shared memory multiprocessor system.
+
+So now when stating the difference between loosely and tightly coupled multiprocessor, it is safe to understand first of all that, a loosely coupled processes data independently while the tightly coupled used a system called the SMMS - which stands for shared memory multiprocessing system..
+
+Also the loosely is ironically less expensive but larger in size, while the tightly is smaller in size, or compact but then more costly..
+
+Here is a noteworthy key stating the interconnection memory system in the loosely is known as the message transfer network because it is used to transfer messages across, while the tighly is known as the Processor-memory interconnection system and the interrupt signal interconnection system...
+
+LETS JUMP INTO THE CENTRALISED COMPUTING
+Centralized computing simply refers to computing that is done at a central location, which means all or more understanding, most of the processing is done in one location, and that term "location" refers to "server"
+the understanding of the conceot is simply put that back and forth communication by senders and recievers is done on one server.
+
+CHARACTERISTICS OF CENTRALISED COMPUTING
+The idea that the central server enables the use of a central clock is facinating because it means that every one user, whether the sender or the reciever would be updated, this is called the global clock. This literally means all the client modes are sync up with the global clock..
+
+But it is also noteworthy that the centeralization of systems can bring about a general failure when there's a glitch in the matrix..
+
+LETS SEE THE ADVANTAGES
+it is cost effective because you will not be needing be purchase several servers
+it is easier to detach nodes from the server, or system
+it is easier and faster to update node
+oh, also it easy to physically secure it
+
+NOW THE DISADVANTAGE
+well after an upgrade and you want to fall back or degrade to a previous version, the way it handles  this operation is very ungraceful
+There is also zero or less possibilty of system or data backup
+tho it is easy to physically secure, it is also difficult to maintain the servers
+and finally like i previously stated, it is system dependant, meaning, if the system fails, all nodes fails
+
+
+SAY HELLO TO DECENTRALIZED COMPUTING
+In this case, i would simply describe it as the connection and collection of autonomous systems which are connected, the communicate with one another in other to achieve a purpose or give a common service. Note that there are different CPU 
+
+DISTRIBUTED COMPUTING
+This is the computing where more than one computers or systems are evaluating the processes a single task
+
+NOW HERE'S THE DIFFERENCE BETWEEN PARALLEL AND DISTRIBUTED COMPUTING
+For the parallel computing, this is a computation where multiple processors execute multiple tasks which is done simutaneously
+For distributed computing, this is a computation where networked systems come together to solve a common goal by passing messages to coordinate the work
+
+In a Distributed Computing, each computer has it ot own memory, while in a parallel computing,the computers use a shared or distributed memory..
+
+FUNCTIONS OF AN OPERATING SYSTEM
+these functions includes:
+- Memory Management: The idea of keeping track of the primary memory storage, to the extent of allocating memory space when the system requests for it
+- Processor Management: Similar to the Memory management, this is the idea of allocating processor or processing power to a program when it is been requested. Further more it can also deallocate the processor when the program no longer has a use to it..
+- Device Management: The idea here is simple, the Input/Output controller decides the process that would be allocated to the device, when it should be allocated and for what duration the device should have the process.
+- File Management:  In the file management something similar occurs here, it is simply the allocation and deallocation of resources.
+- Security: The aim of this function is to prevent or deny unauthorized access by the means of passwords or other various authentication verifications
+- job Accounting: The idea of time and resources tracking by various jobs and resources
+- Interaction with the operating system: These are understood to be set of instructions done that helps with the interactions of the system via consoles
+- Error - Detecting Aids: Simply error messages and the means of debugging and detecting errors 
+
+DISTRIBUTED OS
+Essentially, a distributed Operating System is an operating System that runs on several machines which sole purpose is to render a pecuilar set of services that would make the collection of machine work in unison or as a single machine
+
+NETWORKING OS
+This is exclusively an operating system whose sole priority is to support workstations, databases, and sharing such as file, application, data, and hardware sharing (such as printers) among or accross several computers in a particular connected network...
+
+CHALLENGES OF BUILDING A DISTRIBUTED OS
+Unforturnately it is easier to design a centralized OS than designing a distributed OS, and here are the reasons:
+
+- The first instance is: in a distributed OS, for the fact that the resources are physically seperated is already a no-no, there is no common clock and also, there are usually delays in messages been sent, in fact, there are instances where messages get lost.
+- and since the above underlined issues has is recognised, it goes to show that the state of the underlying distributed system doesnt have an up-to-date consistent knowlegde.
+- Now the funny thing is after all the demerits and obvious issues, the distributed system is expected to run with efficiency, centralization and break down its complexity for easy usability for users.
+
+WELCOME TO TRANSPARENCY
+The idea of transparency entails hiding the complex details of a system created by developers away from users, making it represent a process or program of a single programmer, rather than a collection of autonomous (more than one) programmers or systems which are working in unison.
+
+Let's be aware that there are 8 distinct types of transparency which includes:
+Relocation, Location, Migration, Replication, Persistence, Access, Concurrency and Failure Transparency.
+
+Access,
+Location,
+Failure,
+Concurrency,
+Scaling,
+Performance,
+Migration,
+
+
+
+TROUBLE MEETS TRANPARENCY
+
+ 
+REMOTE PROCEDURE CALL (RPC)
+It is understood that a Remote Procedure Call is simply an inter communication technique mainly ised for client-server side based application. The keyword here is client-server side based application.
+so while the clients sends a request which could be a function call or procedure call, the client is blocked and only reopened after the server has finished processing and executing the request.
+
+HERE ARE THE ADVANTAGES OF AN RPC
+- its supports any process or thread oriented models
+- Now the mechanism of internal message passing is hidden from the user.
+
+
+DISTRIBUTED SHARED MEMORY
+This is said to be a form of memory architecture where physically seperated memory can be recognized as one logically shared address space.
+
+SYNCHRONIZATION
+This is understood to be the collective working together of hardware devices, to the extent that the data or information it contains are made to look exactly similar or identical.
+
+MOBILE COMPUTING
+If you have a technology that enables people to communicate, share or access network services from anywhere, at anytime, then that technology is referred to as a Mobile Computing
+
+The characteristics include:
+Fixed and Wired
+Mobile and Wired
+Fixed and Wireless
+Mobile and Wireless
+
+NOW THE APPLICATION OF MOBILE COMPUTING
+Business, Transportation,  Data Capturing
+
+The downside of the mobile computing comes with the fact it had bandwidth issues, batteries, securities contraints, and interoperability with reference to protocols standard
+Also the issues of interferences and the transmitted data loss rate
+
+The battery issues can also be called resources contraints
+
+THE SIMLIFIED REFERENCE MODEL FOR THE MOBILE COMPUTING
+Physical Layer: for wireless communication, responsible for 
+Datalink Layer: 
+Network Layer: responsible for routing packages or establishing a connection
+Transport Layer: responsible for creating an end-to-end connection
+Application Layer: key responsibility of location service and support for multimedia application, and an application that's adaptive
+
+WIRELESS TRANSMISSION
+Frequency is the rate at which current changes direction per second
+Now here is the twist, spectrum refers to the visual representation at which radio frequencies travel
+
+HERE ARE THE FACTORS THAT AFFECTS THE QUALITY OF COMMUNICATION
+- Line-of-sight propagation: Using the word reference of Sight and line, this factor represents the instance of 2 stattions being able to send and recieve data signals when they're directly facing eachother with no physical obstacle between them.
+
+- Attenuation: This refers to the drop of signal strength which is a natural result of the consequences of signal transmission over a long distance.
+
+- Scattering: This refers to the behavour of travelling currents and voltages when they meet a situation of discontinuity which is caused by the insertion of a network into the transmission line.
+
+- Diffraction: This simply refers to the spreading of waves when they across an obstacle.
+
+THE GSM SERVICES
+The GSM provides video, audio, and data services
+It has the power the transmit from 64 kbps to 160 Mbps
+it consists of RSS(Radio Subsystem, or Base Subsystem), NSS (Network or Switching Subsystem) and OSS (Operating Subsystem)
