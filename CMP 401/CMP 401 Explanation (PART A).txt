@@ -1,0 +1,177 @@
+CMP 401
+
+THE INS OF HOW PROGRAMMING LANGUAGES ARE ORGANIZED- THE STUDY
+
+LANGUAGE DEFINITION STRUCTURE
+areas where computers have been necessitated include:
+- scientific application
+- web software
+- business application
+- artificial application
+
+NATURAL LANGUAGE
+This is a structured system of communication used by humans through speech, signs, gestures, and symbols(often referred to as writing)
+this so-called structured system is represented or organized into grammer and vocabulary.
+
+PROGRAMMING LANGUAGES
+This is regarded to be the vocabulary and set of grammatical rules used to instruct a computer or computers. They include java, js, etc
+
+CATEGORIES OF PROGRAMMING LANGUAGES.
+Have in mind that they are 4 and includes:
+- Procedural Programming Languages: This languages use several variables and heavy loops to solve their problem.. In this PPL, functions may control variables other than return value, example, printing.
+Hence it is a programming paradigm that uses a procedure(or routine) to organize a program which would be executed in a linear fashion.
+
+- Functional Programming Languages: This progamming Paradigm treats computation as the evaluation of mathematical functions
+
+- Object Oriented Programming: This programming paradigm structures its programs in the form of Object, which are instances of a class. These objects encapsulate data and behaviours, which is then used or extracted by use of a method. 
+
+FORMAL LANGUAGES
+This is a set of finite alphabet E, or equivalengthly, an arbitary subset of E*
+ 
+
+LANGUAGE EVALUATING CRITERIA
+The criterias for evaluating a language are:
+Readibility - This is the measure of how a language can be easily understand and intepreted.
+
+Writibility - This is the measure of how a language can be used easily to create a program for a chosen problem of domain( of interest ).
+
+Reliability - a program is said to be reliable, when it can handle errors(Exception Handling), Type setting, also it passes the  readability and writability test , then finally Aliasing(which means one word that have different or more than one meaning)
+
+Cost - This entails the price to pay for training programmers to learn the code and it also entails the cost of writing programs in the language. this is a matter or function of writability.
+2 more reasons to consider under cost is the Cost of Compiling and the Language design..
+Here the cost of compiling can be referenced to Ada, which had a high budget to run the first generation of Ada Compilers.
+
+INFLUENCES OF LANGUAGE DESIGN
+
+The 2 most important factors are:
+- Computer Architecture: 
+- Progamming Methodologies
+
+FOR THE COMPUTER ARCHITECTURE
+First, the originator of computer architecture is John Von Neumann, therefore the architecture is named after him.
+
+HOW IT WORKS
+
+This is how the architecture simply works.. The memory sends information and data into the central processing unit, which consists of the control unit, the Arithimetic and Logic Unit... The Arithmetic Unit then returns results of the operation back to the memory.
+
+This Von Neumann architecture works on a process called the Fetch-Execute cycle. It means that the progam resides in the memory but is executed in the CPU. That also means each instruction must be moved from the memory to the processor, and the address of the next instruction in line is saved or maintained in a register called the program counter
+
+This is how the Fetch-Execute Cycle works:
+- initialize the program counter
+- repeat forever
+- fetch the instruction identified by the program counter
+- Create an increment for the program counter that points to the next instruction
+- decode the instruction
+- execute the instruction
+- end repeat
+
+Almost all digital computers built since the 1940s are using this archtecture.
+
+LANGUAGE IMPLEMENTATION METHODS
+Its safe to understand that Language Implementation Methods are the brigde that facilitates High Level Programming Languages to communicate effectively or speak the language of the machine.
+
+Also, Implementation Methods require a collection of programs(which is an Operating System) that would provide high-level primitives than that of the machine language
+
+The reason is because these primitive provide functionalites such as:
+- System resources management
+- Input & output operations
+- File Management System
+- Tex or program editors
+- and a lot of other functionalities
+
+
+
+Given Von Neumann's architecture, its evident that a digital computer main components are 2, which are:
+
+- The Processor - This is a gathering or collection of circuits that brings to realization a set of machine instructions or primitive operations - an example is the arithmetic and logic operations.
+
+- The Memory
+
+The 3 major methods of Language Implementation includes:
+- Compilation
+- Pure Intepretation
+- Hybrid Implementation
+
+FOR THE COMPILATION
+The aim of the compilation method is to translate the high level language source code to a language the computer would understand, which is called the machine language. There are several stages that is undergone during the compilation which are:
+
+Source Code Writing: This first step starts with the programmer writing the highlevel language for the compiler to execute.
+
+Lexical Analysis: This stage involves the compiler identifying or breaking down the source code into unit tokens while also ignoring comments as it wont be of importance to the program
+
+Syntax Analysis(Parsing): This stage involves the compiler taking the result from the Lexical Analysis and proceeding to create a parse tree for the sole purpose of identifying that the syntatical structure aligns with the programming language.
+
+Semantic Analysis: This stage involves the compiler taking the analysis from the syntax and approving that it contains the correct grammer associated to the syntax and the programming language.
+
+Intermediate Code Generation: This stage typically involves the compiler generating an intermediate code that would be easier and hence faster to optimize. They most often end up being assembly languages, or just a level higher than assembly language.
+
+Code Optimization: After all previous stages has successful been completed, this stage generates a more optimal code for the sake of time execution and memory allocation/optimization
+
+Code Generation: This is the final stage of the compilation method, where the compiler finally generates and executable code, by the means of converting the optimized high level language code into a machine language that would be executed for the specified virtual machine or processor
+
+
+FOR PURE INTERPRETATION
+
+Here the high level languages are interpreted or translated into low level or machine language without the use of a compiler, meaning that they are directly translated without a middle-man intervention. The Interpreter reads the source code line by line and executes the result or the read code (which is the corresponding action) in real time.
+
+An interpreter is a program that reads a source code and translate or performs the necessary outcome directly.
+
+one of the key difference is the interpreter acts as a software simulation.
+
+Now the basic descriptive explanation of the pure interpretion is that the program first feeds the interpreter with source program, then with inputs data being fed into it, it outputs a result.
+
+Here are the steps in a Pure Interpretation Process:
+The Source Code: Here is the first step because the high level language has to be written first before it can be interpreted.
+
+Interpreter: This is where the phase of the translation comes into play in the next steps. but understand that the interpreter reads the high level language and translates it to the corresponding outcome directly without the use of a compiler nor compilation.
+
+Lexical and Syntax Analyzer: In the phase the lexical analyser converts the source codes to unit tokens, and then the syntax analyser start parsing it by creating a parse tree out of it.
+
+Immediate Execution: This stage means that the execution is been implementation by reading the code line by line.
+
+
+Dynamic Typing & Late  Binding: For the aspect of the Dynamic Typing, it simply means that the interpreter gives the avaliability to make typing corrections while it is been executed and you would see the effect immediately.. and for the Late Binding means it allows the resolution of function calls to occur during runtime.
+
+HYBRID IMPLEMENTATION AND HOW IT FLOWS
+Just like the name implies, this implementation is mix of both the Pure Interpretation and the Compilation. This is because The Source Code is passed initially passed to the Lexical Analyser, which then travels down to the, syntax analyser and intermediate code generator.
+
+Finally it passes through an interpreter this time, and vomits (or displays) a result of its fed input data.
+
+THE KEY NOTES OF A HYBRID IMPLEMENTATON
+- intermediate language code are immediately interpreted rather than first converting them into machine code.
+- Java code implementations were initially hybrid. It's intermediate form is called Byte code, which is runnable only on any machine that has the byte code interpreter with a run-time system, merge that together and its called a Java Virtual Machine (JVM)
+- Currently we have systems that run byte codes, and that are call Just-in-Time (JIT) systems.
+
+A QUICK ONE ABOUT J-I-T
+Look the Just In Time implementation System would first translate programs to intermediate languages as usual, but then when its time to execute, it translate it to machine lanaguage. The idea of translating it to a machine language is to use it for future (subsequent) calls.
+
+LANGUAGE STRUCTURE
+First we must understand that the difficulty of developing a concise and descriptive programming language (which is essential by the way), starts with the difference or diversity of the people that are going to learn it.
+These includes the:
+- Elevalutors: They act like the jugdes of the programming language. They determine whether it is good or bad to begin with.
+- The Implementers: These are the programmers who work as open sources to create programs and tools for the programming language 
+- The Users: They are the developers who use the programming language to develop solutions. (Apps and Softwares)
+
+Which this challenges in mind, the solution created is broken down to Syntax and Semantics
+
+Note that in a well designed programming language, Semantics follows immediately after syntax.
+
+
+LET THE FUN BEGIN (SYNTAX & SEMANTICS)
+Take for example the while statement of a Java Language (which can be used to understand any other programming language)
+while ( B == A) {
+#Do something here
+}
+
+In a Syntax explanation, it means:
+while (boolean_expression) {
+statement
+}
+
+In a semantic explanation this code means:
+if the current value of the boolean expression is true (true means correct), then the statement you have written should be executed/shoud happen (statement means, a line of code). and this should continue to execute as long as the boolean expression is true.
+
+But if the boolean expression is false (incorrect) then the code should not be ran again, or it simply jump to the next statement that is after the while loop.
+
+
+PART B WOULD BE EXPLANATING PROBLEMS OF DESCRIBING SYNTAX
