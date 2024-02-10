@@ -1,0 +1,58 @@
+CMP 401 PART B - THE STUDY
+
+NOW LETS DESCRIBE THE SYNTAX
+But first, lets analysis the problem of describing a syntax
+
+
+For starters, we must agree that a language, whether natural or not, it is a combination of characters (or set of strings of characters) from some alphabets.
+
+Now these set of strings of characters, when combined, are used to create a sentence or sentences.
+
+and factually speaking, English has the most complex set of rules when creating a sentence. Meanwhile, for programming languages, no matter the level of complexity, it's syntax remains simple.
+
+Now note that the lowest level syntactic units are called lexemes.
+
+Lexemes usually includes operators, special units and numeric literals, amoung others.
+
+These Lexemes are divided into groups which are already known to us as:
+- Methods (functions)
+- Variables names
+- Keywords
+- Operators
+- Etc
+
+Now the listed groups above are what we call IDENTIFIERS.. and each group is identified or presented as a name(token)
+So we can easily say that Identifiers are group of Lexemes
+
+Here comes the tricky part:
+Al identifiers are Lexemes, but not all Lexemes are identifiers
+
+These are examples of Identifiers:
+- Const, MyFunction..
+
+These are examples of Lexemes:
+- x, +, Const, MyFunction....etc
+
+With this, you would be able to spot the Lexemes and Identifers here
+index = 2 * count + 17;
+
+At the above code, everything is a Lexeme, but just few are Identifiers
+
+LANGUAGE RECOGNISERS AND GENERATORS
+First of all, Languages are in 2 ways
+- Languages Recognition
+- Language Generation
+
+LANGUAGE RECOGNIZER
+A recognizer is a device that checks the input of a language to determine whether the format in which the language is being written actually belongs to the Language in question.
+
+Take an example, the Syntax Analyzer, it is a recognizer that checks whether a language is syntactically correct. It is also called a Parser (I mean the Syntax Analyser)
+
+LANGUAGE GENERATOR
+
+
+
+
+
+
+
