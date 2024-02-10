@@ -49,10 +49,40 @@ A recognizer is a device that checks the input of a language to determine whethe
 Take an example, the Syntax Analyzer, it is a recognizer that checks whether a language is syntactically correct. It is also called a Parser (I mean the Syntax Analyser)
 
 LANGUAGE GENERATOR
+Just like the word says "Generators", they create, generate, produce strings that align with the grammatical structure that adheres to the rules of the language.
+
+FORMAL METHODS OF DESCRIBING SYNTAX
+The word "Grammer" refers to the mechanisms used to generate formal languages
+Additionally, it is used to describe programming languages syntax
+
+The most widely used methods are:
+- Backus-Naur Form(BNF)
+- Context-Free Grammar (CFG)
+
+FUNDAMENTALS OF BNF
+- Meta-Language: This just describes the language that is used to describe other languages. Note that Backus-Naur Form is a metalanguage.
+
+The Non-terminal symbols of a BNF abstraction acts like syntactic variables and are used as syntactic structure classes.
+
+Lets take this assignment statement below: <assign>→<var> =<expression>
+
+THE BREAK DOWN OF THE ASSIGNMENT STATEMENT
+<assign>: This is the non-terminal asbtract syntactic category that would define how the other symbols should be represented
+
+→ : This one signifies the rewrite rule, showing how to expand the non-terminal symbol
+
+<var>: This is another non-terminal symbol but of a low category that signifies where the rest of the values would be saved. It is equally called Variable.
+
+= : This represents the assignment operator, and its a terminal system. 
+
+<expression>: Finally, this represents another non-terminal symbol of a lower category, which is a valid expression.
 
 
+The idea simply means, that its just a rule that dictates the structure of an assignment statement.
 
-
-
+NOTE THIS:
+The rule contains a RHS and LHS
+- RHS(Right Hand Side): This contains things like Tokens, lexems and references to other abstractions (<var> =<expression>)
+- LHS (Left Hand Side): Now this is the abstraction itself being defined (<assign>)
 
 
