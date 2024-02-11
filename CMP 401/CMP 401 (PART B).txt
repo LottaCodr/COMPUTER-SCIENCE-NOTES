@@ -79,10 +79,16 @@ THE BREAK DOWN OF THE ASSIGNMENT STATEMENT
 
 
 The idea simply means, that its just a rule that dictates the structure of an assignment statement.
+and non-terminal 
 
 NOTE THIS:
 The rule contains a RHS and LHS
 - RHS(Right Hand Side): This contains things like Tokens, lexems and references to other abstractions (<var> =<expression>)
 - LHS (Left Hand Side): Now this is the abstraction itself being defined (<assign>)
+
+Also, multiple Definitions can be written as a rule, by seperating it with an OR/AND for example:
+<if_stmt> → if ( <logic_expr> ) <stmt> | if ( <logic_expr> ) <stmt> else <stmt>
+
+where the LHS is simply the non-terminal abstraction <if_stmt>
 
 
