@@ -100,8 +100,15 @@ This representation comes in two ideal forms:
 - Semantics: This one is a judge of Language Grammar
 
 REQUIREMENTS FOR KNOWLEGDE REP.
-- Inferential Efficiency
-- Acquistyional Efficiency
+- Inferential Efficiency: Simple the ability to incorporate additional Information into the knowledge structure.
+- Acquistyional Efficiency: Simple the ability to acquire new information easily.
 
 
+PRACTICAL REQUIREMENT FOR A GOOD REPRESENTATION
+
+- Completeness of the representation
+- Computability
+- Important objects and Relation explicit and accessible
+- So its natural constraint
+- Transparency
 
