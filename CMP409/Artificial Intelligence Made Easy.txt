@@ -88,3 +88,20 @@ Example: London (Geographic Entity)
 
 - Coreference Resolution: This is the process of tagging the correct pronoun in a sentence to the correct noun in that same sentence/Paragraph to extract alot and more specific information out of the document.
 
+STOP WORDS
+This are simply fillers that appear more than most words in a sentences, such as "a, the", which could come accross as noised when parsing is in process.
+
+KNOWLEDGE REPRESENTATION
+
+The aim of Knowledge Representation is to express knowledge in a way that a computer can understand and translate it. This helps the AI to be more efficient.
+
+This representation comes in two ideal forms:
+- Syntax: This one is a judge of Language Structure
+- Semantics: This one is a judge of Language Grammar
+
+REQUIREMENTS FOR KNOWLEGDE REP.
+- Inferential Efficiency
+- Acquistyional Efficiency
+
+
+
