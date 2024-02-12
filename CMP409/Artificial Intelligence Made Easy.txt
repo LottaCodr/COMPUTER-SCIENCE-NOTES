@@ -1,0 +1,90 @@
+WELCOME TO ARTIFICIAL INTELLIGENCE
+
+TURING TEST
+
+The turing test is a test carried out to observe or judge the ability of a machine to think to the extent that a human would confuse its feedback to be a human.
+
+...and this test is done through a game called the "Imitation Game"
+
+HOW THE IMITATION GAME WORKS
+There are 3 players, Player one is a computer and Player 2 is a Female..
+Now the Player 3 is a human, and is made to guess what gender is either of them but via messages.. now either of the Computer would try deceiving the human by acting like an opposite gender(or atleast acting like a human). 
+
+If the computer was successful to act like a human, then the computer has passed the test..
+
+LETS UNDERSTAND NATURAL LANGUAGE TOGETHER
+First of all, DEFT means, Deep Exploration and Filtering of Text
+
+Robots or computers understand a given command or instruction from a human by a process called Natural Language Understanding
+
+So Natural Language Understanding is described as the comprehension by computers of the structure and meaning of human language which allows users to interact with the computer using natural sentences.
+
+
+HOW NLU SIMPLY WORKS
+It takes the user input, converts it to computer language and then creates an output that humans can understand
+
+NATURAL LANGUAGE UNDERSTANDING vs NATURAL LANGUAGE PROCESSING
+
+See NLU is responsible for taking the human input and passing it through content analysis, text categorization and sentiment analysis...for the sole purpose of properly interpreting and translating the input regardless of the possible typographical errors or whatnot..
+
+Meanwhile NLP is a term that explains the entire process of taking an unstructured data and transforming  it into a structured data
+
+QUICK HISTORY OF NLU
+- NLU began by the year 1950
+- 20 to 30 years later, linguistics started coding the grammar and semantics rules
+- 10 years after that uptil 2015, the Natural Language Statistical Revolution started, which consisted of the what is called now "Machine Learning" - It is also called "Probability Model", meaning - The more data you feed the model, the more efficient it becomes..
+
+
+RELATION EXTRACTION
+This is simply the techinque for the partial analysis of Natural Language
+In a relation extraction program, it searches for a single relation, and the rest of the text is ignored.
+
+Now the downside is, since the program doesnt allow recursiveness, so the simplier our single relation or data to be referenced for the searches, the more impossible we would find the information we are looking for.
+
+SEMANTIC PARSING
+This means the process of converting a natural language into meaning that the computer can act upon.
+Extracting the precise meaning of an utterance
+
+case-role analysis is the shallow form of semantic representation
+while Predicte Logic (or other formal languages that supports automated reasoning)  is a deeper form of semantic representation
+
+Shallow Semantics parsing are also known as Slot-filling or Frame Semantic Parsing
+
+Deep semantic parsing is also known as Compositional Semantic Parsing
+
+SENTIMENTAL ANALYSIS
+From the name , Sentimental = Feelings
+It entails subjective impressions which are not facts
+
+Sometimes it is referred to as opinion mining, even though in this case the emphasis is on Extraction
+
+Look at them in the idea of a survey.
+
+Natural Language Processing are accessibly via open source python libraries such as:
+- spaCy
+- textacy
+- neuralcoref
+
+MACHINE LEARNING APPROACH
+"Building a pipeline" means doing anything complicated in machine learning
+
+So the best approach in Machine Learning is to break down the large complex task into smaller tasks, then finally merge them together with a machine learning model.
+
+
+THE 8 EASY STEPS TO MACHINE LEARNING
+- Segmen Sentences: This involves breaking the steps apart into seperate sentences. Easily done by just splitting the sentences with commas
+
+- Tokenization of words: Now this involves splitting them into smaller groups. punctuations are also treated as seperate tokens
+
+- Predict Part  of the Speech per Token: This model was trained by feeding it millions of English sentences with already tagging each word's part of speech
+
+- Text Lemmatization: This is a process of figuring out the most basic form or lemma of each word in the sentence by looking up their parts of speech with some custom rules for word you havent used before.
+
+-  Dependency Parsing: This is the process of figuring out how all the words in the sentences relate with eachother by building a tree and assigning a single parent word to each word in the sentence where the root of the tree becomes the main verb
+
+- Named Entity Recognition (NER): This process is to label the nouns with real-world concept which they're actually representing. It is achieved by using how a word appears in a sentence(that is the context of the word) and guessing the type of noun the word represents.
+
+Example: London (Geographic Entity)
+
+- Coreference Resolution: This is the process of tagging the correct pronoun in a sentence to the correct noun in that same sentence/Paragraph to extract alot and more specific information out of the document.
+
