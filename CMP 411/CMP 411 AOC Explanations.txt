@@ -1,8 +1,29 @@
-LETS TALK ABOUT THE QUEUEING MODELS
+LETS TALK ABOUT THE QUEUING MODELS
 First of all the queuing theory
 generally the theory is just when waiting lines are mathematically studied
 
 the whole idea of the model is the predict the queuing waiting line and the length of the queues
+
+KEY COMPONENTS OF QUEUE MODELS
+- Arrive Process: This refers to the process in which an Entity such as Customers or Jobs arrive at a queue, which is usually described by their probability distribution such as Exponential, Poisson
+- Server System: This refers to the mechanism that handles requests, its capacity and service time distribution.
+- Queue Capacity: This defines the number of entiies allowed in a queue.
+- Queue Discipline: This defines form or order in which entities enter or join a queue (FIFO,LIFO, priority based)
+- Performance Metric: This measure performances such as waiting time, queue length, server utilization etc, with the aim of evaluating and improving the system's performance
+
+LEARN THE FORMAT IN WHICH MODELS ARE READ
+M/M/M
+The first M is read as Arrival Process
+The 2nd M is read as Exponential Service tIme
+The Last M is read as Queue Capacity
+
+COMMON TYPES OF QUEUING MODELS:
+M/M/1 - This type of queuing model is explained to be the most basic of all models by having the Poisson Arrival, the Exponential Service time and Only one server.
+
+M/M/c - This is similar to the M/M/c, where the only difference is having multiple server
+G/M/1 - This type of model Generalizes the Arrival Time distribution, with Only one queue capacity
+M/G/1 - This type of model is known to Generalize the Service Time distribution, with only one Queue capacity
+
 
 NOW  LETS LIST THE TYPES OF MODES OF NODES
 
@@ -15,12 +36,18 @@ Note: when a customer leaves immediately it notices that the cashier or server i
 
 Now the behavour of this queuning node is called a birth-death process. The idea behind it is the arrival and departure of jobs from the queue, also including the amount of jobs that has been current in the system.
 
-COMMON QUEUING MODELS:
-M/M/1 - This type of queuing model is explained to be the most basic of all models by having the Poisson Arrival, the Exponential Service time and Only one server.
+LITTLE'S LAW EXPLAINED
+The trick in understanding and remembering the Little's Law, is by simply remembering the formular and what each symbol in the formular represents. That's all.
 
-M/M/c - This is similar to the M/M/c, where the only difference is having multiple server
-G/M/1 - This type of model Generalizes the Arrival Time distribution
-M/G/1 - This type of model is known to Generalize the Service Time distribution
+
+When theoritically explaining the formular of little's law, it is deduced as: Little's law states that the average number of item in the system is equal to the Average arrival rate of items multiplied by the average number of time an item spends in a system.
+
+Mathematically, it is represented as:
+L = λW
+
+Where L is the Average number of items in a system
+λ is the Average Arrival rate of items
+W is the Average number an item spends in a system
 
 
 THE KENDALL'S NOTION
@@ -65,5 +92,6 @@ Infinite Queue: In this type of queue capacity suggests that there is no limit t
 
 Open queues: This type of queue capacity defines a system where the customers are free to enter or leave the queue whenever they wish..
 Closed Queues: This type of queue capacity suggests that customers cant just leave the system when they wish because the number of customers in the system is fixed.
+
 
 
