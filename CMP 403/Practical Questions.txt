@@ -6,6 +6,8 @@ As a consultant requirements engineer, discuss the tools ad techniques that you 
 
 THE ANSWER
 
+To answer this, you first break down the answers to sections where are: Eliciting Service Request, Analysis Service Requests, Documenting Service Request and Checking Service Requests
+
 Eliciting Service Requests
 - Interviews: Conduct interviews with the keystake holders which would include the management, instructors and the clients
 
