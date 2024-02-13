@@ -1,0 +1,39 @@
+SOFTWARE ENGINEERING PRACTICAL QUESTIONS & ANSWERS
+
+A small specialist language training company would like to improve the service offered to existing clients and increase its client base by replacing existing call centres and paper-based mailshots, with online web technology deployment.
+
+As a consultant requirements engineer, discuss the tools ad techniques that you would deploy to elicit, analyse, document and check services requested by the company
+
+THE ANSWER
+
+Eliciting Service Requests
+- Interviews: Conduct interviews with the keystake holders which would include the management, instructors and the clients
+
+- Client Focus Groups: Gather insights from the clients themselves about their experiences, and thoughts for improvement.
+
+- Surveys: Create online surveys for both existing clients and prospects, to have a widened/broader feedback to understand their prefferred features, the software functionality and their usability.
+
+- Competitor Analysis: Monitor and Analyze already existing online language training platform to identify potential loopholes for posssible improvement which would make mine standout, also capture best practices. 
+
+Analyzing Service Requests:
+- Feasibility Analysis: Analyze the technical feasibility of implementing the desired features that has been gathered, when using the current technology and resources.
+
+- Cost-Benefit Analysis: I have to evaluate the development and maintenance cost of the features. This would help to a better financial advice for the company, and budget planning.
+
+- Priority Technique: I would be using the Must-Have Could-have Should-have  Wont-have technique to prioritize features to be implemented
+
+- Affinity Mapping: By evaluting other Group similar request, ideas and feedback, i would be able to recogize patterns, trends and key themes.
+
+Documenting Service Requests:
+- Requirement Document: I would draft out a well structured document that highlights the key functional and non-functional requirements, including the usecase, user stories, acceptance critertia and system requirements.
+
+- Wireframes and Prototypes: By developing low fidelity wireframes and high fidelity protoypes to visually propose the platform design and its features/functionalities go prompt a better user feedback and stakeholders validation.
+
+- User Flow Diagram: I would map out the user journey around the platform to showcase and illustrate how users would interact with all the different features and functionalities.
+
+Checking Service Requests:
+- Verification: This is where i ensure that the outlined requirements are properly and accurately reflecting the needs adn expectations of which the stakeholders elicited.
+
+- Validation: Now i would conduct a user ability testing with selected users to evaluate the user experience, user satisfaction, the platform effectiveness and ease of use.
+
+- Gap Analysis: This is where i finally check whether there are missing features and functionalities that i forgot to implement.
