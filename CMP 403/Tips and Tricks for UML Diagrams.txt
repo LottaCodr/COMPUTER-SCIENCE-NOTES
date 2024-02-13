@@ -1,0 +1,95 @@
+TIPS AND TRICKS TO CREATING THE UML DIAGRAMS
+
+It should be a common and cleaner practice/habit to first outline what would be added to the diagram. to would help make a cleaner diagram
+
+FOR A CLASS DIAGRAM
+Scenario: Online food ordering system
+Entities (the classes) : User, Resturant, Menu Item, Order, Cart.
+
+Relationships:
+
+- User interacts with the system.. 
+- User places an order for Menu Items from a Resturant.
+- Cart holds selected Menu Items before placing an Order.
+- Order references Menu Items and User who placed it.
+
+Tips for Drawing:
+- You should use rectangles for classes, with classes names inside.
+- Show attributes inside the rectangle and operations below (this is optional)
+- Use lines and arrowhead to show relationships ( solid for inheritance, and dashed for association).
+- Add cardinalitis at the ends of line (e.g 1:N for one user placinf mutiple orders)
+
+
+FOR USE CASE DIAGRAM
+Scenario: A library management system.
+Actors: Librarian, Member.
+
+The use cases: Borrow Book, Return Book, Renew Book, Search for Book, Pay Fines.
+
+Relationships:
+- Librarian performs Borrow Book, Return Book, Renew Book use cases.
+- Member performs Borrow Book, Return Book, Renew Book, Search for Book, Pay Fines uses cases.
+
+Tips for Drawing Use cases:
+- Use stick figures for actors and Ellipses for use cases.
+- Label Actors and use cases with their descriptive names.
+- Connect actors and their use case with lines
+
+FOR SEQUENCE DIAGRAM
+Scenario: Placing an order in the food ordering system
+
+Objects: User, System, Restaurant, Menu Item, Cart, Order.
+
+Messages:
+- User selects Menu items and adds them to cart
+- User submits order to System
+- System sends order details to Restaurant.
+- System updates User with order status (eg. "Preparing", "on the way")
+- Restaurant delivers food to User
+- User confirms delivery and completes the order.
+
+Tips for Drawing a Sequence Diagram
+- Use vertical lines to represent objects participating in the interaction
+- Place messages chronologically accross lifelines, with arrows indicating direction.
+- Use descriptive message names such as "addItemToCart", "confirmOrder"
+- show object creation and destruction as needed.
+
+FOR ACTIVITY DIAGRAM
+Scenario: Processing a loan application in a banking system
+Activities: Submit application, Check credit score, Verify income, approve/reject application, disburse funds
+
+Decision Points:
+- Application meets eligibility criteria? (Yes/No)
+- Income sufficient for loan amount (Yes/no)
+- Credit score acceptable? (Yes/No?
+
+Tips for Drawing an Activity Diagram
+- Use rounded rectangles for activities and diamonfs for decision points
+- Connect elements with arrows showing flow (solid lines for mandatory paths, dashed lines for optional).
+- show synchronization points where activities wait for each other.
+
+FOR ENTITY RELATIONSHIP DIAGRAM
+Scenario: Online Library System
+
+Entities:
+- Books: (attributes: ISBN, author, title, publication year, genre)
+- Member: (attributes: members ID, name, contact info, membership type)
+- Author: (attributes: author ID, name, nationality)
+- Loan: (attributes: loan ID, member ID, book ISBN, borrow date, due date, return date)
+
+Relationships:
+- Books: written by Author (one to many)
+- Member: can borrow Book (many to many) through Loan
+- Loan: has one Book and is associated with one Member (one to one)
+
+Tips in Drawing ERD
+- Use rectangles for entitiies (eg. Book, Member)
+- Lisr attributes within each rectangle
+- Use lines and arrowheads to show relationships (solid lines with arrow for "written by" and diamonds for many-many relationships)
+- Label cardinalitis at the ends of lins (eg 1:N, M:N)
+
+
+
+
+Additional Considerations for all:
+You can extend the entities, actors, decisions points and/or messages as you wish... What you need to understand is that there is no strict number of possibilities
