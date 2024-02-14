@@ -17,6 +17,8 @@ The first M is read as Arrival Process
 The 2nd M is read as Exponential Service tIme
 The Last M is read as Queue Capacity
 
+This is properly explained as the Kandell's Notions
+
 COMMON TYPES OF QUEUING MODELS:
 M/M/1 - This type of queuing model is explained to be the most basic of all models by having the Poisson Arrival, the Exponential Service time and Only one server.
 
@@ -48,6 +50,33 @@ L = λW
 Where L is the Average number of items in a system
 λ is the Average Arrival rate of items
 W is the Average number an item spends in a system
+
+
+LET'S MATHEMATICALLY USE LITTLE'S LAW TO SOLVE A PROBLEM
+Question: Suppose we have a fast-food restaurant with a single line and multiple cash registers. On average, 30 customers arrive per hour, and the average time a customer spends in the restaurant (from joining the line to completing the order) is 10 minutes. Calculate the average number of customers in the restaurant at any given time
+
+Solution:
+using L = λW
+W = 10 (the time has to always be in hours, so lets convert it to hours which is 10/60) 
+λ = since this means the arrival rate, 30 customer per hours means the rate of arrival
+
+L = 30 * (10/60)
+L = 5
+
+Hence the average number of customers in the resturant at any given time is 5 customers at average.
+
+
+
+
+HERE ARE SOME OF THE IMPLICATIONS AS WELL AS THE APPLICATIONS OF LITTLE'S LAW
+- Predicting Queue Length: Once we are able to know the arrival rate and service time, we can forcast the average number of items waiting which would help us understand how to share resources and enhance capacity planning.
+
+- Identifying Bottlenecks: When queue length gets high, its a sign that a system would encounter bottlenecks (which means congestion), this is where little's law plays a role. Little's law can help identify where service time needs to be reduced, in order to decrease congestion.
+
+- Balancing trade-offs: Reducing service time might increase arrival rate due to faster processing. Hence Little's law helps evaluate these trade-off, quantitatively.
+
+- Performance Monitoring: When it comes to performance metrics, by tracking the little's symbols, which are L, λ and W, we can monitor the performance of the system
+
 
 
 THE KENDALL'S NOTION
