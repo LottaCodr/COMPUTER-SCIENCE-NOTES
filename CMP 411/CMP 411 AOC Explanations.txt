@@ -1,3 +1,50 @@
+
+DIFFERENCE BETWEEN DISCRETE AND CONTINOUS MODELLING
+First of all we should know that types of modelling are based off on several forms such as:
+- By Data Representation,
+- By Domain,
+- By Purpose
+
+and both Discrete and Continous Modelling are based on Modelling By Data Representation
+
+So now lets know understand what makes the Discrete and Continous Modelling special.
+
+FOR THE DISCRETE MODELLING
+This modelling deals with countable, and distinct steps or event. steps that you can count, one should think of it as stairs which you walk on, because they are distinct and countable.
+
+It's known to use finite values such as integer to represent variables, including changes that occur in jumps.
+
+Now the strengths includes:
+- Good for modelling sudden changes and discrete event
+- Great for handling countable entities
+
+But its limitations includes:
+- Might not always capture subtle variantions and continous processes correctly/accurately
+
+
+FOR THE CONTINOUS MODELLING
+This is the opposite of the Discrete Modelling, because it focuses with smooth uninterruped changes. now imagine a ramp instead of a stair
+
+It uses continous values such as real numbers to represent variables and changes that occur gradually.
+
+It is suitable for Population Growth Models, Differential Equations, Physical Simulations
+
+Its Strengths includes:
+- It can accurately capture continous changes,
+- best and suitable for gradual processes and physical systems
+
+Now the Limitations are:
+- Making the computations would end up being expensive.
+- and it will not be suitable for systems which uses countable entities
+
+THE DIFFERENCE IN A TABULAR FORMAT
+Feature                     Discrete                                            Continous
+Change                     Jumps btw States                               Gradual, Continous Changes
+Variables                   Finite values(integers)                        Continous values (real numbers)
+Time                         Occurs as distinct moments                Flows constantly
+Examples                  Simulations, State machines               Differential equations, Phyical simulations
+
+
 PHASES IN MODELLING PROCESS
 - Definition and Problem Scoping
 - Data Collection and Analysis
@@ -18,6 +65,7 @@ EACH PHASE EXPLAINED
 - Model Usage and Interpretation:  At this stage, we can apply the model as a test run, with aim of answering questions, making predictions or making informed decisions. This is also the phase where you analysis the output and draw conclusion, which you would communicate with the stakeholders in a very clear and concise presentation.
 
 - Model Maintence and Revision: Here you are left to monitor the overall performance of the model. While taking notes and documenting the entire process for future traceability, this is the stage where updates and revisings are being made in other to keep the model as relevant as possible.
+
 
 
 LETS TALK ABOUT THE QUEUING MODELS
