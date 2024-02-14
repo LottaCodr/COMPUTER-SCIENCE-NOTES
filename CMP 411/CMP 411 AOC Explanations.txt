@@ -38,11 +38,11 @@ Now the Limitations are:
 - and it will not be suitable for systems which uses countable entities
 
 THE DIFFERENCE IN A TABULAR FORMAT
-Feature                     Discrete                                            Continous
-Change                     Jumps btw States                               Gradual, Continous Changes
+Feature                     Discrete                                       Continous
+Change                      Jumps btw States                               Gradual, Continous Changes
 Variables                   Finite values(integers)                        Continous values (real numbers)
-Time                         Occurs as distinct moments                Flows constantly
-Examples                  Simulations, State machines               Differential equations, Phyical simulations
+Time                        Occurs as distinct moments                     Flows constantly
+Examples                    Simulations, State machines                     Differential equations, Phyical simulations
 
 
 PHASES IN MODELLING PROCESS
