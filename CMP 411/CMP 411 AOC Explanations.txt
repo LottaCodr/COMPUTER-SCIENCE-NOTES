@@ -23,9 +23,8 @@ COMMON TYPES OF QUEUING MODELS:
 M/M/1 - This type of queuing model is explained to be the most basic of all models by having the Poisson Arrival, the Exponential Service time and Only one server.
 
 M/M/c - This is similar to the M/M/c, where the only difference is having multiple server
-G/M/1 - This type of model Generalizes the Arrival Time distribution, with Only one queue capacity
-M/G/1 - This type of model is known to Generalize the Service Time distribution, with only one Queue capacity
-
+G/M/1 - This type of model Generalizes the Arrival Time distribution, with Only one server
+M/G/1 - This type of model is known to Generalize the Service Time distribution, with Only one server
 
 NOW  LETS LIST THE TYPES OF MODES OF NODES
 
@@ -57,6 +56,8 @@ Question: Suppose we have a fast-food restaurant with a single line and multiple
 
 Solution:
 using L = λW
+
+L = ? (This is what we are trying to calculate)
 W = 10 (the time has to always be in hours, so lets convert it to hours which is 10/60) 
 λ = since this means the arrival rate, 30 customer per hours means the rate of arrival
 
@@ -64,8 +65,6 @@ L = 30 * (10/60)
 L = 5
 
 Hence the average number of customers in the resturant at any given time is 5 customers at average.
-
-
 
 
 HERE ARE SOME OF THE IMPLICATIONS AS WELL AS THE APPLICATIONS OF LITTLE'S LAW
@@ -77,6 +76,12 @@ HERE ARE SOME OF THE IMPLICATIONS AS WELL AS THE APPLICATIONS OF LITTLE'S LAW
 
 - Performance Monitoring: When it comes to performance metrics, by tracking the little's symbols, which are L, λ and W, we can monitor the performance of the system
 
+LITTLE'S LAW LIMITATIOS AND ASSUMPTIONS
+- Steady-state: This means the law only applies to a stable state where arrival and service rate remains constant over time.
+
+- Finite Queue: The basic queue considers an infinite queue capacity, meanwhile most variations consider a finite queue capacity.
+
+- Single Class of Items: This means that the law applies to only one variety or one type of item which is undergoing the same process.
 
 
 THE KENDALL'S NOTION
