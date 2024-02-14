@@ -1,3 +1,25 @@
+PHASES IN MODELLING PROCESS
+- Definition and Problem Scoping
+- Data Collection and Analysis
+- Model Selection and Development
+- Model Verification & Validation
+- Model Usage and Interpretation
+- Model Maintence and Revision
+
+EACH PHASE EXPLAINED
+- Definition & Problem Scoping: Here we clealy define the problem or the suitation you want to model with the intended purpose. Determine the stakeholders and their information needs.
+
+- Data Collection & Analysis: Here we gather information and data which are relevant, from different sources. Clean and prepare the data to make sure that it is accurate and complete. while doing so, you should analyze the data to notice patterns, trends and relationships.
+
+- Model Selection and Development: Here you are to first select a modelling technique that is based on the problem you are trying to solve, and the desired outcome. Then develop a model structure. Finally configure the model with real-world data to ensure accuracy and validity.
+
+- Model Verification and Validation: Here you confirm the model is behaving as intended and confirm that all the requirements and features has been duly met. You can have the opportunity to iterate until you are satisfied that the verification and validation has been fully met.
+
+- Model Usage and Interpretation:  At this stage, we can apply the model as a test run, with aim of answering questions, making predictions or making informed decisions. This is also the phase where you analysis the output and draw conclusion, which you would communicate with the stakeholders in a very clear and concise presentation.
+
+- Model Maintence and Revision: Here you are left to monitor the overall performance of the model. While taking notes and documenting the entire process for future traceability, this is the stage where updates and revisings are being made in other to keep the model as relevant as possible.
+
+
 LETS TALK ABOUT THE QUEUING MODELS
 First of all the queuing theory
 generally the theory is just when waiting lines are mathematically studied
@@ -20,10 +42,14 @@ The Last M is read as Queue Capacity
 This is properly explained as the Kandell's Notions
 
 COMMON TYPES OF QUEUING MODELS:
-M/M/1 - This type of queuing model is explained to be the most basic of all models by having the Poisson Arrival, the Exponential Service time and Only one server.
+M/M/1 - This type of queuing model is explained to be the most basic of all models by having the Poisson Arrival, the Exponential Service time and Only one server.  It is applied in Simple service systems such as  bank tellers and call centers with short calls.
 
-M/M/c - This is similar to the M/M/c, where the only difference is having multiple server
-G/M/1 - This type of model Generalizes the Arrival Time distribution, with Only one server
+M/M/c - This is similar to the M/M/c, where the only difference is having c identical server.  It is applied in systems with multiple parallel servers like checkout counters and web servers with parallel connections.
+
+M/M/∞ - Similar like the above but has infinite number of servers instead. It is theoritical model used for understanding server utilization and bottleneck analysis.
+
+G/M/1 - This type of model Generalizes the Arrival Time distribution, with Only one server. It is applied for scheduling appointments.
+
 M/G/1 - This type of model is known to Generalize the Service Time distribution, with Only one server
 
 NOW  LETS LIST THE TYPES OF MODES OF NODES
