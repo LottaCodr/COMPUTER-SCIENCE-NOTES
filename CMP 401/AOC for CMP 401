@@ -1,0 +1,81 @@
+CMP 401 AOC
+
+THESE ARE THE REASONS WHY COMPUTERS NEED THEIR OWN LANGUAGE
+
+Q1. Computers need their own language for various reasons. discuss any three reasons
+
+Answer:
+i. Precision and Unambiguity: The idea this computers need a language that is clear and concise in other for them to carry out a well structured information, which would lead to a properly accurate result, or better still, an expected result. Furthermore, this can be achieved by leveraging on the tools and techniques of computer languages which are essentially Syntax and Semantics. Each line of instruction has a specific meaning, this helps to eliminate any room for misinterpretation.
+
+ii. Efficiency and Speed: The idea here is computer can't use human language to process information due to the fact that human process informaton in a narrative manner, while computer are excellent at parallel processes and lightning fast calculations.
+
+iii. Abstraction and Complexity Management: The idea here is it would be overwhelming for humans to use human languages to carry out the tasks regarding the inner works of a computer, things like the interaction between the software and hardware of the computer. Now this is where the computer language comes in play, such that it hides the low level details, and instead provides the high-level concepts and functionalities of a computer. This helps us to focus more on what we want the computer to achieve as an end result.
+
+Q2. Discuss object-oriented language stating the major principle behind it
+
+Answer:
+With the help of OOP, instead of focusing about procedures and instructions which is the ancient way we think about programs, we can rather now think about object, self-contained entities, and the code that makes them operate.
+
+Lets delve:
+
+Encapsulation:
+In encapsulation, access to internal data is being controlled by methods. This ensures that there isnt unauthorized modification of data. Also it ensures modularizations, which means the codes act as modules, which facilitates reusability.
+It helps to hide unneccessary processing information and focuses on the object public interface
+
+Inheritance: 
+This is a programming concept that promote the reuse of code, where objects can inherit the properties and attributes of other object or classes.
+
+Polymorphism:
+This entails method-overidding, in the concept where a subclass inherits the method of a parent class, then proceeds to change the behavour of the method.
+
+Dynamic Dispath:
+In this conceptualization, the datatype of the variable of the subclass is uniformly changed, regardless of whether the method was inherit from the parent class.
+
+Upcasting and Downcasting:
+Upcasting is achieved by assigning an object of the subclass to variable of the parentclass, or to the parent class variable..
+Downcasting is achieved by converting the reference of the parent class to a subclass type. This concept is highly discouraged.
+
+Abstraction:
+The concept behind abstraction is highing irrelevant data from the public eye, and instead displaying the data/information of importance..
+It's enables Generalization, invisibility of complex information.
+
+Q3. Reasons to study programming languages
+
+Answer:
+- Problem Solving Skills & Critical Thinking Capabilities
+- Personal Growth and Empowerment
+- Career Opportunities & Growth
+- Creativity & Innovation
+- Understanding the Digital World
+
+
+Q4. Who would you meet when it is time to define and standardise your programming language? Why does your language needs standardising and when is the appropriate time to go for it?
+
+Answer:
+
+- Language Developers
+- Industry Representatives
+- Technical Experts
+- Academic Researchers
+- Standardization Body Representatives (These include ISO *International Organization for Standardization* and ECMA *European Computer Manufacturers' Association* )
+
+a. Why the language needs standardization
+- Interoperability: This ensures that a code written in one environment will be run on others, facilitating collaboration and code reuse.
+
+- Stability: Consistency and well-defined features helps defeat fragmentation and compatibility issues across different implementations.
+
+- Clarity: A clear and concise standard encourages easier learning, understanding and development of tools and libraries for the language.
+
+- Growth & Adoption: Standardization attracts more developers and users, fostering a larger community and sustainability to the long-term of the language.
+
+
+b. When to go for standardization:
+- When there exist an industry demand of the language, meaning the language is used to develop crucial application across diverse companies 
+- When the community comes in agreement that the language needs to be standardized.
+- When there is large and active user base of the language.
+- When there is technical stability
+
+
+
+
+
