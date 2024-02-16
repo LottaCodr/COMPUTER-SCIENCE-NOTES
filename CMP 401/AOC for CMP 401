@@ -180,8 +180,14 @@ THE KEY DIFFERENCE
 - Ambiguity: Syntactically correct sentences (or codes) can have many interpretations, while the semantics gives it a defined meaning.
 - Context Dependency: Semantics helps with giving the proper context to the meaning of a sentence.
 
-Q8. GIven the statement: int i = 2*count+17(a+b);, seperate the statement into its tokens and lexemes
+Q8. GIven the statement: int i = 2*count+17(a+b); , seperate the statement into its tokens and lexemes
 
 Answer:
  int i = 2 * count +17 (a+b) ;
-<keyword> <identifier> <operator> <Number> <operator> <keyword> <operator> <Number> <operator> <identifier> <operator> <identifier> <operator> <operator>
+<keyword> <identifier> <operator> <Number> <operator> <identifier> <operator> <Number> <operator> <identifier> <operator> <identifier> <operator> <operator>
+
+The hint here is:
+all datatypes are keywords (int, string,...)
+Operator are mathematical symbols (=+- ()...)
+Semicolon marks the end of the statement, but still considered an operator
+Number are all numerical values
