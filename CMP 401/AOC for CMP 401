@@ -145,3 +145,14 @@ Now the Disadvantages:
 - Startup Time: The initial compilation at run time leads to longer startup times compared to pre-compiled executables. 
 
 Q7. Using an example, differentiate between syntax and semantics
+
+Lets use a simple sentence "The Dog barks" to digest the differences of Syntax and Semantics
+
+Understanding "SYNTAX"
+Syntax refers to the structure and the grammatical rules of the sentence. It the skeleton, the elements or blueprints of the sentences.
+
+Just like the sentence "The Dog barks", syntax defines the order of words in the sentence. (Subject-verb-object), so if you change it to "The Bird Barks", it is still syntactically correct, but semantically wrong.
+
+Understanding "SEMANTICS":
+Now Semantics focuses on the meaning of the sentences. So if you change "The Dog Barks" to "Barks Dog The", it is semantically invalid.
+
