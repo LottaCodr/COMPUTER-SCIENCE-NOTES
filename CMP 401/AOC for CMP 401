@@ -191,3 +191,34 @@ all datatypes are keywords (int, string,...)
 Operator are mathematical symbols (=+- ()...)
 Semicolon marks the end of the statement, but still considered an operator
 Number are all numerical values
+
+Q9. Given the grammar for a small language as:
+ <program> → begin <stmt_list> end
+				<stmt_list> → <stmt>
+				 | <stmt> ; <stmt_list>
+				<stmt> → <var> = <expression>
+				<var> → A | B | C
+				<expression> → <var> + <var>
+				| <var> – <var>
+				| <var>
+
+Describe every components of this grammar.
+
+Answer:
+
+The Grammar Symbol:
+- <program>, <stmt_list>,<stmt>,<var> and <expression> are all non-terminal symbols representing different syntactic catergories (or parts of speech) in the language.
+
+- begin, end, = , +, -, A, B, and C are terminal symbols representing specfic keywords, operators and variables respectively.
+
+- The arrow →  denotes a production rule, showing that the non-terminal symbol can be expanded into sequence of other symbols.
+
+The Grammar Rules:
+- <program>: A program starts with the keyword Begins, after which it follows a list of statements, and finally closes with the keyword end.
+
+- <stmt_list>: This denotes that it carries other single statements seperated with commas <stmt>.. This <stmt_list>means a list of statement.
+
+- <stmt>: This symbol called statement involves giving a value to a variable, by using the assignment operator which is =, and and expression <expression>
+
+- <var>: This symbol means variable, which can be A,B, or C
+- <expression>: An expression is when 2 are more variables are engaged in an activity with one or more operators. eg <var> + <var> or <var> - <var>
