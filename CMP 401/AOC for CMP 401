@@ -93,6 +93,7 @@ Answer:
 - Personal Preference and experience: When considering a programming language, personal perference comes to play in the aspect of how well and easy it is for you to understand the syntax and style of other programming language.
 
 Q6. Describe any one of the implementation methods. show diagrams
+
 Let it be known, that there are 3 implementation method, which includes -  Compilation, Interpretation and Just-In-Time (J-I-T).
 
 Answer:
@@ -202,7 +203,7 @@ Q9. Given the grammar for a small language as:
 				| <var> – <var>
 				| <var>
 
-Describe every components of this grammar.
+Q10. Describe every components of this grammar.
 
 Answer:
 
@@ -222,3 +223,13 @@ The Grammar Rules:
 
 - <var>: This symbol means variable, which can be A,B, or C
 - <expression>: An expression is when 2 are more variables are engaged in an activity with one or more operators. eg <var> + <var> or <var> - <var>
+
+Q11. Generate the grammar for A = B * ( A + C ) and provide its parse tree.
+
+Answer:
+
+<expr> -> <id> = <expr>; (This is for the entire assignment statement)
+<expr> -> (<expr>) (This is for the parenthesized expression)
+<expr> -> <expr> * <expr> (This is for the multiplication expression)
+<expr> -> <expr> + <expr> (This is for the addition expression)
+<expr> -> <id> (This is the Identifier)
