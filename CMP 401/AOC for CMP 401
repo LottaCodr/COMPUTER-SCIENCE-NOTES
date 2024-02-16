@@ -243,4 +243,4 @@ First of all the statement saying " A = B + C * A is an ambiguous grammar" is to
 
 Additionally, a grammar is said to be Ambiguous when a single string can have multiple valid parse trees due to the rule of the grammar that leads to confusion in interpretation. 
 
-So when you turn it to a grammar, the sentence is actually ambiguous.
+So when you turn it to a grammar, the sentence is actually ambiguous. So simple draw/generate the parse tree for the sentence (The leftmost and Rightmost derivative)
