@@ -112,3 +112,36 @@ Now Disadvantages:
 - Portability: Because the executable files are target platform specific, hence not all plaform will support its compatibility.
 - Development Speed: Since there would need of making changes to the program, which hence requires recompilation and which therefore would be time-consuming with frequent modifications.
 - Debugging: Here debugging can be a pain because the source code might not be directly linked to the executed machine code.
+
+
+2. Interpretation: An interpreter reads and executes the source code line-by-line without generating a seperate executable file. Each line is translated into machine code on the go and executed immediately.
+
+The Diagram:
+Source Code -> Interpreter---{Machine Code}-> Hardware
+
+The Advantages:
+- Portability: They can run on differnt platforms as long as they have the interpreter for the specific language.
+- Ease of Development: Modification and changes can be made on the source code and tested immediately, without the recompiling the entire code.
+- Debugging: Errors can be easily identified and fix because of the line by line interpretation.
+
+Now the disadvantages:
+- Performance: Interpreters tends to be slower because they translate the code line by line on the go.
+- Resource Usage: When  it comes to memory usage, interpreters use more because the have to store both the Machine Code and the Source Code.
+- Debugging: This is a challenge when the interpreter may not have access to the machine code that is being executed.
+
+
+3. Just-In-Time(JIT) Compilation: This is a hybrid for of translation, as it combines the performance of compiled code and the flexibility of interpretation, having the elements of the two methods of implementation. It does this compiling the frequently used codes to machine code at runtime, and the less frequently section are interpreted.
+
+The Diagram:
+Source Code --> JIT Compiler ---[Machine Code]--> Executable Code --> Hardware
+
+The Advantages:
+- Performance: Often faster than Interpreters while approaching the performance of compiled code for frequently used sections.
+- Portability: Compiled code are specific to platform, but with JIT Compiler method, the overall approach would be portable across platforms.
+- Development Speed: When compared to Compilation, it offers a quicker development cycle and yet provides performance benefits.
+
+Now the Disadvantages:
+- Complexity: This JIT Implementation method is more complex compared to traditional Compilation and Interpretation.
+- Startup Time: The initial compilation at run time leads to longer startup times compared to pre-compiled executables. 
+
+Q7. Using an example, differentiate between syntax and semantics
