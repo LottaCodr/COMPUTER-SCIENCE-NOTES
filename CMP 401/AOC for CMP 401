@@ -88,5 +88,27 @@ Answer:
 
 - Platform Compatibility: This means the  platform and environment that is supported by this language. (Web, desktop, mobile)
 
+- Suitability for your project: This is a judge on the language alignment with the project's specfic requirements, its domain and complexity.
 
+- Personal Preference and experience: When considering a programming language, personal perference comes to play in the aspect of how well and easy it is for you to understand the syntax and style of other programming language.
 
+Q6. Describe any one of the implementation methods. show diagrams
+Let it be known, that there are 3 implementation method, which includes -  Compilation, Interpretation and Just-In-Time (J-I-T).
+
+Answer:
+1. Compilation: A compilar translate a source code file into an executable file which contains to machine code instructions, which is specific to a target platform. This executable file is then ran directly on the machine without the need of the compiler again.
+
+The Diagram:
+Source Code -> Compiler -> Executable File (Machine Code) -> Hardware
+
+Here are the advantages of Compilation:
+- Performance: Compiled programs are said to be run faster than interpreted programs because the  machine code which is converted from the source is pre-translated and optimized for the specfic platform.
+
+- Resource Usage: runtime memory requirements and usage is reduced because after compilation, the compiler is nolonger needed, compared to interpreters.
+
+- Standardization: The executable files (which contains the machine code instructions can be easily distributed and run on different machines with compatible platforms without the need of the compiler.
+
+Now Disadvantages:
+- Portability: Because the executable files are target platform specific, hence not all plaform will support its compatibility.
+- Development Speed: Since there would need of making changes to the program, which hence requires recompilation and which therefore would be time-consuming with frequent modifications.
+- Debugging: Here debugging can be a pain because the source code might not be directly linked to the executed machine code.
