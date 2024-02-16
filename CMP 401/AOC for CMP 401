@@ -1,7 +1,6 @@
 CMP 401 AOC
 
 
-
 Q1. Computers need their own language for various reasons. discuss any three reasons
 
 Answer:
@@ -76,6 +75,18 @@ b. When to go for standardization:
 - When there is technical stability
 
 
+Q5. Discuss the commonly used criteria for evaluating a programming language
+
+Answer:
+- Readability and writability: The syntax and stucture and avaliable documentation has to be clear and concise for newcomers who wants to use the programming language. Under the readability is the maintainability and expressiveness of the code.
+
+- Performance and Efficiency: The execute speed of the code to run on targeted platform is a criteria that is used to evalute a programming language, which also includes the memory usage,concurrency and parallelism (meaning the support of handling multiple tasks or operations  simutaneously) of the programming language.
+
+- Reliability and Robustness: The mechanism for catching and handling errors gracefully (this is callled Error Handling), and also preventing crashes and unexpect behaviour.Also the strictness to checking datatypes to help avoid errors and chances of vulnerabilities.. and Finally the security features of the programming language.
+
+- Community and Ecosystem: This entails the avaliable of tools and libraries that has been created by the community around the programming language, including avaliability of quality documentations and tutorials, as well as the presence of community size, plays a vital role in the evaluation of a programming language.
+
+- Platform Compatibility: This means the  platform and environment that is supported by this language. (Web, desktop, mobile)
 
 
 
