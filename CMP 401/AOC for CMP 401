@@ -238,7 +238,8 @@ Q12. Show that the statement: A = B + C * A is an ambiguous grammar
 
 Answer:
 
+<Personal Opinion>
 First of all the statement saying " A = B + C * A is an ambiguous grammar" is totally incorrect on its own because it is not A = B + C * A is not even a grammar but rather an expression. Grammars define how to generate valid strings in a language while expressions are very specific instances of those strings.
 
-Additionally, a grammar is said to be Ambiguous when a single string can have multiple valid parse trees due to the rule of the grammar that leads to confusion in interpretation.
+Additionally, a grammar is said to be Ambiguous when a single string can have multiple valid parse trees due to the rule of the grammar that leads to confusion in interpretation. 
 
