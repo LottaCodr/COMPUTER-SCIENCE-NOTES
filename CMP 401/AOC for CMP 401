@@ -153,6 +153,29 @@ Syntax refers to the structure and the grammatical rules of the sentence. It the
 
 Just like the sentence "The Dog barks", syntax defines the order of words in the sentence. (Subject-verb-object), so if you change it to "The Bird Barks", it is still syntactically correct, but semantically wrong.
 
+- below is a python code
+
+# Syntactically correct code:
+x = 10
+y = 5
+print(x + y)  # Output: 15
+
+# Syntactically incorrect code (missing colon):
+if x > y print("x is greater")
+
 Understanding "SEMANTICS":
 Now Semantics focuses on the meaning of the sentences. So if you change "The Dog Barks" to "Barks Dog The", it is semantically invalid.
 
+- Below is another python code:
+# Semantically meaningful code:
+name = "Alice"
+print("Hello, " + name + "!")  # Output: Hello, Alice!
+
+# Semantically nonsensical code:
+age = "blue"
+print("You are " + age + " years old.")  # Output: You are blue years old.
+
+THE KEY DIFFERENCE
+- Form vs Meaning: Syntax deals with form and structure, while semantics deals with meaning and intension
+- Ambiguity: Syntactically correct sentences (or codes) can have many interpretations, while the semantics gives it a defined meaning.
+- Context Dependency: Semantics helps with giving the proper context to the meaning of a sentence.
