@@ -15,7 +15,7 @@ Q2. Discuss object-oriented language stating the major principle behind it
 Answer:
 With the help of OOP, instead of focusing about procedures and instructions which is the ancient way we think about programs, we can rather now think about object, self-contained entities, and the code that makes them operate.
 
-Lets delve:
+Lets feast:
 
 Encapsulation:
 In encapsulation, access to internal data is being controlled by methods. This ensures that there isnt unauthorized modification of data. Also it ensures modularizations, which means the codes act as modules, which facilitates reusability.
@@ -171,7 +171,7 @@ Now Semantics focuses on the meaning of the sentences. So if you change "The Dog
 name = "Alice"
 print("Hello, " + name + "!")  # Output: Hello, Alice!
 
-# Semantically nonsensical code:
+# Semantically nonsensical code but syntactically correct:
 age = "blue"
 print("You are " + age + " years old.")  # Output: You are blue years old.
 
@@ -179,3 +179,9 @@ THE KEY DIFFERENCE
 - Form vs Meaning: Syntax deals with form and structure, while semantics deals with meaning and intension
 - Ambiguity: Syntactically correct sentences (or codes) can have many interpretations, while the semantics gives it a defined meaning.
 - Context Dependency: Semantics helps with giving the proper context to the meaning of a sentence.
+
+Q8. GIven the statement: int i = 2*count+17(a+b);, seperate the statement into its tokens and lexemes
+
+Answer:
+ int i = 2 * count +17 (a+b) ;
+<keyword> <identifier> <operator> <Number> <operator> <keyword> <operator> <Number> <operator> <identifier> <operator> <identifier> <operator> <operator>
