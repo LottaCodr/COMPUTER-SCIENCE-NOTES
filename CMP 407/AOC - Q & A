@@ -8,10 +8,9 @@ The expression `position = initial + rate * 9` goes through these compiler phase
 1. Lexical Analysis: Breaks down the code into tokens (position, =, initial, +, rate, *, 9).
 2. Syntax Analysis: Parses the tokens to verify the grammar (expression, assignment).
 3. Semantic Analysis: Checks if the expression makes sense (adding integer values).
-4. Code Generation: Translates the code into intermediate or machine code:
-
-   - Intermediate: `temp1 = rate * 9; temp2 = temp1 + initial; position = temp2;`
-   - Machine code: (Specific instructions depend on platform and compiler).
+4. Intermediate Code Generator: Translates the code into intermediate (`temp1 = rate * 9; temp2 = temp1 + initial; position = temp2;`)
+5. Optimization: Makes the Intermediate code that's generated lighter and more efficient.
+6. Code Generation: Translates the code into Machine code: (Specific instructions depend on platform and compiler).
 
 2. Using java and javascript as case studies discuss the difference between a compiler and interpreter.
 
