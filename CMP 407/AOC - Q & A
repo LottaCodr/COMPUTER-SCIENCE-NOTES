@@ -1,0 +1,140 @@
+PAST QUESTIONS AND ANSWERS TO CMP 407
+
+
+1. Using following expresion position = initial + rate * 9, explain phases of a compiler and showing how the code is converted to binary.
+
+The expression `position = initial + rate * 9` goes through these compiler phases:
+
+1. Lexical Analysis: Breaks down the code into tokens (position, =, initial, +, rate, *, 9).
+2. Syntax Analysis: Parses the tokens to verify the grammar (expression, assignment).
+3. Semantic Analysis: Checks if the expression makes sense (adding integer values).
+4. Code Generation: Translates the code into intermediate or machine code:
+
+   - Intermediate: `temp1 = rate * 9; temp2 = temp1 + initial; position = temp2;`
+   - Machine code: (Specific instructions depend on platform and compiler).
+
+2. Using java and javascript as case studies discuss the difference between a compiler and interpreter.
+
+
+Compiler:
+
+Java: Converts entire source code to machine code before execution.
+C++: Similar to Java.
+Advantages: Faster execution, optimized code, no need for interpreter at runtime.
+Disadvantages: Requires compilation step, less portable (machine-specific code).
+
+Interpreter:
+
+JavaScript: Executes code line by line without creating an executable file.
+Python: Similar to JavaScript.
+Advantages: Faster development cycle, no compilation step, more portable.
+Disadvantages: Slower execution, larger memory footprint, requires interpreter at runtime.
+
+3. Generate the syntax tree for the following expression the postfix as part of the process (a+b) * (c-d) + ((e/f) * (a+b))
+
+Expression: `(a+b) * (c-d) + ((e/f) * (a+b))`
+
+Preorder Traversal: `* + a b * - c d + / e f * a b`
+Postfix: `ab+ cd-* ef/+ ab+*`
+
+Syntax Tree:
+
+```
+      +
+     / \
+    *   +
+   / \ / \
+  a  b - c d
+     / \
+    e   f
+```
+
+4. state the three important roles of a translator
+
+1. Ensures correctness: Verifies code adheres to syntax and semantics of the language.
+2. Generates efficient code: Compilers create optimized machine code for better performance.
+3. Enables portability: Allows code to run on different platforms (some interpreters achieve portability too).
+
+5. List 5 Compilers
+
+1. GCC (GNU Compiler Collection)
+2. LLVM (Low Level Virtual Machine)
+3. Clang (C Language Family frontend for LLVM)
+4. Microsoft Visual C++
+5. Java Development Kit (JDK) compiler
+
+6. Discuss the functions of the frontend compiler.
+
+- Lexical analysis, syntax analysis, and semantic analysis.
+- Generates intermediate code or syntax tree representation.
+- Performs optimizations (e.g., constant folding, dead code elimination).
+
+7. Discuss a single-pass compiler
+
+- Makes one pass through the source code.
+- Performs all analysis and code generation simultaneously.
+- Simpler, but less flexible and potentially less efficient than multi-pass compilers.
+
+8. state 5 advantages of a compiler over an interpreter
+
+1. Faster execution: Machine code runs directly on the hardware.
+2. Smaller memory footprint: No interpreter needed at runtime.
+3. More optimized code: Compilers can perform extensive optimizations.
+4. Wider platform support: Compiled code can run on different platforms.
+5. Earlier error detection: Syntax and semantic errors caught during compilation.
+
+9. what is regular express and what is its primary use.
+
+A pattern used to match specific sequences of characters.
+
+**Primary Use:**
+
+- Pattern matching: finding text that matches a specific pattern in strings.
+- Validation: ensuring input conforms to a certain format.
+
+10. define and explain a one pass compiler and a mulitpass compiler
+
+**One-Pass:** As described above, simpler but less powerful.
+
+**Multi-Pass:**
+
+- Makes multiple passes through the source code.
+- Each pass focuses on a specific task (e.g., lexical analysis, syntax analysis, code generation).
+- More complex but allows for optimizations and better modularity.
+
+11. draw and explain the structure of a one pass compiler
+
+```
+Source Code -> Lexical Analyzer -> Syntax Analyzer -> Semantic Analyzer -> Code Generator -> Machine Code
+```
+
+12. define the following terms. Alphabet, String, Language
+
+- Alphabet: A set of symbols used to build strings.
+- String: A finite sequence of symbols from an alphabet.
+- Language: A set of strings defined by a regular expression or grammar.
+
+13. What 5 strings can be generated from tis expression b [eor]at[ry]
+
+
+1. bat
+2. eat
+3. try
+4. bet
+5. yet
+
+This is because the bracketed expressions [eor] and [ry] represent choices. [eor] can be replaced with either "e" or "o", and [ry] can be replaced with either "r" or "y". By combining these possibilities, we get the five strings listed above.
+
+14. Name the following regular expressions
+
+[a-zA-Z]
+[0-9]
+[a-zA-Z0-9]
+
+[a-zA-Z]: This expression matches any single lowercase or uppercase letter of the alphabet. It is called a character class.
+[0-9]: This expression matches any single digit between 0 and 9. It is also called a character class.
+[a-zA-Z0-9]: This expression matches any single lowercase or uppercase letter or any single digit between 0 and 9. It is a character class combining the previous two.
+
+15. What is a syntax tree?
+
+A syntax tree is a graphical representation of the grammatical structure of a program or expression. It shows how the different parts of the code relate to each other according to the language's grammar. Each node in the tree represents a symbol or a part of the code, and the connections between nodes represent the relationships between them.
