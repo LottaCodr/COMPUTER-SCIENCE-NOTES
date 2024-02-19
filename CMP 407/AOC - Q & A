@@ -130,9 +130,9 @@ This is because the bracketed expressions [eor] and [ry] represent choices. [eor
 [0-9]
 [a-zA-Z0-9]
 
-[a-zA-Z]: This expression matches any single lowercase or uppercase letter of the alphabet. It is called a character class.
-[0-9]: This expression matches any single digit between 0 and 9. It is also called a character class.
-[a-zA-Z0-9]: This expression matches any single lowercase or uppercase letter or any single digit between 0 and 9. It is a character class combining the previous two.
+[a-zA-Z]: This expression matches any single lowercase or uppercase letter of the alphabet. It is called a alphabetic character class.
+[0-9]: This expression matches any single digit between 0 and 9. It is also called a Numeric character class.
+[a-zA-Z0-9]: This expression matches any single lowercase or uppercase letter or any single digit between 0 and 9. It is a character class combining the previous two. It is called an alphanumeric character class.
 
 15. What is a syntax tree?
 
