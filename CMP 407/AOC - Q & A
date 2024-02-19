@@ -6,6 +6,11 @@ PAST QUESTIONS AND ANSWERS TO CMP 407
 The expression `position = initial + rate * 9` goes through these compiler phases:
 
 1. Lexical Analysis: Breaks down the code into tokens (position, =, initial, +, rate, *, 9).
+
+<id, 1> <=> <id,2> <+> <id,3> <.> <60>
+
+This is the token stream
+
 2. Syntax Analysis: Parses the tokens to verify the grammar (expression, assignment).
 3. Semantic Analysis: Checks if the expression makes sense (adding integer values).
 4. Intermediate Code Generator: Translates the code into intermediate (`temp1 = rate * 9; temp2 = temp1 + initial; position = temp2;`)
